@@ -6,6 +6,7 @@ build/
 gradle-8.0/
 gradle-8.0-bin.zip
 gradle-wrapper.jar.tmp
+release/
 
 # IDE
 .idea/
@@ -28,3 +29,4 @@ Thumbs.db
 # Local
 local.properties
 *.keystore
+
