@@ -1,0 +1,336 @@
+﻿Starting a Gradle Daemon, 4 stopped Daemons could not be reused, use --status for details
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeDebugStartupProfile UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so.
+
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:mergeExtDexDebug
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin FAILED
+.\gradlew : e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/re
+pository/ExpenseRepository.kt:6:55 Unresolved reference 'ExpenseTrackerDatabase'.
+At line:1 char:80
++ ... xpenseTracker; .\gradlew --stop; .\gradlew assembleDebug 2>&1 | Out-F ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (e: file:///C:/U...ackerDatabase'.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AccountsScr
+een.kt:33:13 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AccountsScr
+een.kt:36:21 None of the following candidates is applicable:
+@Composable() @ComposableTarget(...) fun Icon(bitmap: ImageBitmap, contentDescription: String?, modifier: Modifier = 
+..., tint: Color = ...): Unit
+@Composable() @ExperimentalMaterial3Api() @ComposableTarget(...) fun Icon(painter: Painter, tint: ColorProducer?, 
+contentDescription: String?, modifier: Modifier = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(painter: Painter, contentDescription: String?, modifier: Modifier = ..., 
+tint: Color = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(imageVector: ImageVector, contentDescription: String?, modifier: 
+Modifier = ..., tint: Color = ...): Unit
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AccountsScr
+een.kt:37:39 Unresolved reference 'ArrowBack'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AccountsScr
+een.kt:43:21 None of the following candidates is applicable:
+@Composable() @ComposableTarget(...) fun Icon(bitmap: ImageBitmap, contentDescription: String?, modifier: Modifier = 
+..., tint: Color = ...): Unit
+@Composable() @ExperimentalMaterial3Api() @ComposableTarget(...) fun Icon(painter: Painter, tint: ColorProducer?, 
+contentDescription: String?, modifier: Modifier = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(painter: Painter, contentDescription: String?, modifier: Modifier = ..., 
+tint: Color = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(imageVector: ImageVector, contentDescription: String?, modifier: 
+Modifier = ..., tint: Color = ...): Unit
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AccountsScr
+een.kt:44:39 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val Icons.Filled.Add: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AccountsScr
+een.kt:136:42 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val Icons.Filled.AccountBox: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AccountsScr
+een.kt:137:37 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val Icons.Filled.Build: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddAccountS
+creen.kt:39:21 None of the following candidates is applicable:
+@Composable() @ComposableTarget(...) fun Icon(bitmap: ImageBitmap, contentDescription: String?, modifier: Modifier = 
+..., tint: Color = ...): Unit
+@Composable() @ExperimentalMaterial3Api() @ComposableTarget(...) fun Icon(painter: Painter, tint: ColorProducer?, 
+contentDescription: String?, modifier: Modifier = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(painter: Painter, contentDescription: String?, modifier: Modifier = ..., 
+tint: Color = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(imageVector: ImageVector, contentDescription: String?, modifier: 
+Modifier = ..., tint: Color = ...): Unit
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddAccountS
+creen.kt:40:39 Unresolved reference 'ArrowBack'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddAccountS
+creen.kt:73:43 Unresolved reference 'AccountBalance'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddAccountS
+creen.kt:89:73 Unresolved reference 'KeyboardType'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddAccountS
+creen.kt:93:43 Unresolved reference. None of the following candidates is applicable because of a receiver type 
+mismatch:
+val Icons.Filled.AttachMoney: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:43:13 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:46:21 None of the following candidates is applicable:
+@Composable() @ComposableTarget(...) fun Icon(bitmap: ImageBitmap, contentDescription: String?, modifier: Modifier = 
+..., tint: Color = ...): Unit
+@Composable() @ExperimentalMaterial3Api() @ComposableTarget(...) fun Icon(painter: Painter, tint: ColorProducer?, 
+contentDescription: String?, modifier: Modifier = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(painter: Painter, contentDescription: String?, modifier: Modifier = ..., 
+tint: Color = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(imageVector: ImageVector, contentDescription: String?, modifier: 
+Modifier = ..., tint: Color = ...): Unit
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:47:39 Unresolved reference 'ArrowBack'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:81:43 Unresolved reference. None of the following candidates is applicable because of a receiver type 
+mismatch:
+@property:Deprecated(...) val Icons.Filled.Note: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:99:43 Unresolved reference. None of the following candidates is applicable because of a receiver type 
+mismatch:
+val Icons.Filled.AccountBalance: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:128:17 Unresolved reference 'LazyRow'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:129:57 Unresolved reference 'spacedArrangement'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:131:21 Unresolved reference 'items'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:131:41 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:132:25 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:134:73 Unresolved reference 'id'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:135:71 Unresolved reference 'id'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:151:43 Argument type mismatch: actual type is 'kotlin.Unit', but 
+'androidx.compose.ui.graphics.vector.ImageVector' was expected.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:151:43 Classifier 'interface List<out E> : Collection<E>' does not have a companion object, so it cannot be 
+used as an expression.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:197:9 None of the following candidates is applicable:
+@Deprecated(...) @ExperimentalMaterial3Api() @Composable() @ComposableInferredTarget(...) fun 
+AlertDialog(onDismissRequest: () -> Unit, modifier: Modifier = ..., properties: DialogProperties = ..., content: 
+@Composable() ComposableFunction0<Unit>): Unit
+@Composable() @ComposableInferredTarget(...) fun AlertDialog(onDismissRequest: () -> Unit, confirmButton: 
+@Composable() ComposableFunction0<Unit>, modifier: Modifier = ..., dismissButton: @Composable() 
+ComposableFunction0<Unit>? = ..., icon: @Composable() ComposableFunction0<Unit>? = ..., title: @Composable() 
+ComposableFunction0<Unit>? = ..., text: @Composable() ComposableFunction0<Unit>? = ..., shape: Shape = ..., 
+containerColor: Color = ..., iconContentColor: Color = ..., titleContentColor: Color = ..., textContentColor: Color = 
+..., tonalElevation: Dp = ..., properties: DialogProperties = ...): Unit
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:199:23 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddExpenseS
+creen.kt:201:17 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:13:47 Unresolved reference 'ArrowUp'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:14:47 Unresolved reference 'ArrowDown'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:38:25 Not enough information to infer type argument for 'T'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:38:25 Not enough information to infer type argument for 'T'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:38:36 Not enough information to infer type argument for 'T'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:38:51 Unresolved reference 'Date'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:45:13 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:48:21 None of the following candidates is applicable:
+@Composable() @ComposableTarget(...) fun Icon(bitmap: ImageBitmap, contentDescription: String?, modifier: Modifier = 
+..., tint: Color = ...): Unit
+@Composable() @ExperimentalMaterial3Api() @ComposableTarget(...) fun Icon(painter: Painter, tint: ColorProducer?, 
+contentDescription: String?, modifier: Modifier = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(painter: Painter, contentDescription: String?, modifier: Modifier = ..., 
+tint: Color = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(imageVector: ImageVector, contentDescription: String?, modifier: 
+Modifier = ..., tint: Color = ...): Unit
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:49:39 Unresolved reference 'ArrowBack'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:84:43 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val Icons.Filled.AccountBalance: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:116:47 Unresolved reference. None of the following candidates is applicable because of a receiver type 
+mismatch:
+val Icons.Filled.AccountBalance: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:122:47 Unresolved reference 'ArrowDown'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:124:53 Unresolved reference 'clickable'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:129:21 Unresolved reference 'Dropdown'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:133:25 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:134:25 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:135:38 Overload resolution ambiguity between candidates:
+@Composable() @ComposableTarget(...) fun Text(text: AnnotatedString, modifier: Modifier = ..., color: Color = ..., 
+fontSize: TextUnit = ..., fontStyle: FontStyle? = ..., fontWeight: FontWeight? = ..., fontFamily: FontFamily? = ..., 
+letterSpacing: TextUnit = ..., textDecoration: TextDecoration? = ..., textAlign: TextAlign? = ..., lineHeight: 
+TextUnit = ..., overflow: TextOverflow = ..., softWrap: Boolean = ..., maxLines: Int = ..., minLines: Int = ..., 
+inlineContent: Map<String, InlineTextContent> = ..., onTextLayout: (TextLayoutResult) -> Unit = ..., style: TextStyle 
+= ...): Unit
+@Composable() @ComposableTarget(...) fun Text(text: String, modifier: Modifier = ..., color: Color = ..., fontSize: 
+TextUnit = ..., fontStyle: FontStyle? = ..., fontWeight: FontWeight? = ..., fontFamily: FontFamily? = ..., 
+letterSpacing: TextUnit = ..., textDecoration: TextDecoration? = ..., textAlign: TextAlign? = ..., lineHeight: 
+TextUnit = ..., overflow: TextOverflow = ..., softWrap: Boolean = ..., maxLines: Int = ..., minLines: Int = ..., 
+onTextLayout: ((TextLayoutResult) -> Unit)? = ..., style: TextStyle = ...): Unit
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:135:51 Unresolved reference 'name'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:137:61 Unresolved reference 'id'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:155:43 Argument type mismatch: actual type is 'kotlin.Unit', but 
+'androidx.compose.ui.graphics.vector.ImageVector' was expected.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:155:43 Classifier 'interface List<out E> : Collection<E>' does not have a companion object, so it cannot be 
+used as an expression.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:167:29 Unresolved reference 'Toast'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:170:33 Unresolved reference 'Toast'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:173:29 Unresolved reference 'Toast'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AddIncomeSc
+reen.kt:176:33 Unresolved reference 'Toast'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:6:55 Unresolved reference 'spacedArrangement'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:7:55 Unresolved reference 'centerVertically'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:10:47 Unresolved reference 'ArrowDown'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:11:47 Unresolved reference 'ArrowUp'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:43:13 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:46:21 None of the following candidates is applicable:
+@Composable() @ComposableTarget(...) fun Icon(bitmap: ImageBitmap, contentDescription: String?, modifier: Modifier = 
+..., tint: Color = ...): Unit
+@Composable() @ExperimentalMaterial3Api() @ComposableTarget(...) fun Icon(painter: Painter, tint: ColorProducer?, 
+contentDescription: String?, modifier: Modifier = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(painter: Painter, contentDescription: String?, modifier: Modifier = ..., 
+tint: Color = ...): Unit
+@Composable() @ComposableTarget(...) fun Icon(imageVector: ImageVector, contentDescription: String?, modifier: 
+Modifier = ..., tint: Color = ...): Unit
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:47:39 Unresolved reference 'ArrowBack'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:118:36 Unresolved reference 'ArrowDown'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:125:36 Unresolved reference. None of the following candidates is applicable because of a receiver type 
+mismatch:
+val Icons.Filled.AccountBox: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:168:65 Unresolved reference 'spacedArrangement'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:169:59 Unresolved reference 'centerVertically'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:173:47 Unresolved reference 'sp'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:194:86 Unresolved reference 'totalAmount'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:195:38 Overload resolution ambiguity between candidates:
+@IntrinsicConstEvaluation() fun div(other: Byte): Double
+@IntrinsicConstEvaluation() fun div(other: Double): Double
+@IntrinsicConstEvaluation() fun div(other: Float): Double
+@IntrinsicConstEvaluation() fun div(other: Int): Double
+@IntrinsicConstEvaluation() fun div(other: Long): Double
+@IntrinsicConstEvaluation() fun div(other: Short): Double
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:195:65 Unresolved reference 'totalAmount'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:195:78 None of the following candidates is applicable:
+@InlineOnly() fun BigDecimal.times(other: BigDecimal): BigDecimal
+@InlineOnly() fun BigInteger.times(other: BigInteger): BigInteger
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/AnalyticsSc
+reen.kt:214:35 Unresolved reference 'sp'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:43:13 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:47:39 Unresolved reference 'ArrowBack'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:59:35 Unresolved reference 'Add'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:114:125 Argument type mismatch: actual type is 'kotlin.Long', but 'kotlin.Int' was expected.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:119:80 Unresolved reference 'copy'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:130:53 Unresolved reference 'spacedArrangement'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:131:47 Unresolved reference 'centerVertically'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:135:35 Unresolved reference 'sp'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:154:51 Unresolved reference 'spacedArrangement'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/ExpensesScr
+een.kt:170:35 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val Icons.Filled.Delete: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/HomeScreen.
+kt:33:13 This material API is experimental and is likely to change or to be removed in the future.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/HomeScreen.
+kt:37:39 Unresolved reference 'Menu'.
+30 actionable tasks: 10 executed, 20 up-to-date
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/HomeScreen.
+kt:60:24 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val Icons.Filled.AccountBox: ImageVector
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/HomeScreen.
+kt:68:24 Unresolved reference 'Icons'.
+e: file:///C:/Users/roman/Desktop/genai-test-project/ExpenseTracker/app/src/main/java/com/expensetracker/ui/HomeScreen.
+kt:180:80 Unresolved reference 'copy'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing 
+org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 32s
+
+The command was unsuccessful.

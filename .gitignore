@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+gradle-8.0/
+gradle-8.0-bin.zip
+gradle-wrapper.jar.tmp
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.nav/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kotlin
+*.class
+
+# Local
+local.properties
+*.keystore
