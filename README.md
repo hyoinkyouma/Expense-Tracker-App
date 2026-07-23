@@ -4,7 +4,7 @@ A modern Android expense tracking app built with Jetpack Compose and Material 3.
 
 ## Features
 
-- **Multi-Account Support** — Create checking, savings, and cash accounts; track income/expense transactions per account
+- **Multi-Bank Account Support** — Create checking, savings, and cash accounts; track income/expense transactions per account
 - **Expense Management** — Log expenses with title, amount, category, and notes; expenses automatically deduct from selected accounts
 - **Monthly Budget** — Set a monthly spending target and track progress with a visual budget card
 - **Category Analytics** — 11 default categories (Food, Transportation, Utilities, Entertainment, etc.) with color-coded stacked bar charts and percentage breakdowns
